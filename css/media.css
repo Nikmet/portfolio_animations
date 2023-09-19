@@ -1,0 +1,82 @@
+@media screen and (max-width: 1230px) {
+    .header-nav__list {
+        display: none;
+    }
+    .nav-btn {
+        display: block;
+        align-self: start;
+        z-index: 101;
+    }
+
+    .header-nav.open body {
+        overflow: hidden;
+    }
+
+    .header-nav.open .header-nav__list {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        z-index: 100;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .header-nav.open .header-nav__item a {
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    .header-nav {
+        margin-bottom: 50px;
+    }
+
+    .header-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-content {
+        margin-top: 0;
+    }
+
+    .title-1 {
+        font-size: 34px;
+    }
+
+    .header-img {
+        margin-top: 20px;
+    }
+
+    .services {
+        padding: 60px 0;
+    }
+
+    .services-card:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .title-2{
+        margin-bottom: 50px;
+    }
+
+    .project-img{
+        margin-bottom: 30px;
+    }
+
+    .project:not(:last-child){
+        margin-bottom: 55px;
+    }
+
+    .footer{
+        padding: 60px 0;
+    }
+}
