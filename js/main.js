@@ -4,9 +4,9 @@ const menuBtnImg = document.querySelector(".nav-btn-img");
 
 menuBtn.addEventListener("click", () => {
     if (menu.classList.toggle("open")) {
-        menuBtnImg.src = "././assets/nav-close.svg";
+        menuBtnImg.src = "/assets/nav-close.svg";
     } else {
-        menuBtnImg.src = "././assets/nav.svg";
+        menuBtnImg.src = "/assets/nav.svg";
     }
 });
 
